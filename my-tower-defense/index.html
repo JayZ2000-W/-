@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>简易塔防游戏</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            background: #eee;
+        }
+        .info-panel {
+            padding: 20px;
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-panel">
+        金币: <span id="gold">100</span> | 
+        生命: <span id="hp">20</span>
+    </div>
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
